@@ -1,0 +1,12 @@
+.test_box {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-right: auto;
+    padding: 1%;
+    outline: 0;
+    border: 1px solid #a0b3d6;
+    word-wrap: break-word;
+    overflow-x: hidden;
+    overflow-y: auto;
+}

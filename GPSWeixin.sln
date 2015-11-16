@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPSMenu", "GPSMenu\GPSMenu.csproj", "{2DEA3DF7-B590-4E86-AF6D-AEACCE27A493}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{E9D1F17A-07AA-44CE-91A7-753DD9D22E06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClassLibs", "ClassLibs", "{494C296C-9F11-4964-B0F5-18F9AEA1ABD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inctech.Founation.Misc", "ClassLibs\Inctech.Founation.Misc\Inctech.Founation.Misc.csproj", "{5C0EE29B-B074-4A16-8975-C01F3EFBE794}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inctech.Foundation.Web", "ClassLibs\Inctech.Foundation.Web\Inctech.Foundation.Web.csproj", "{DBB1A58E-889A-4FC7-A6C0-F0F3CE5284D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tencent", "ClassLibs\Tencent\Tencent.csproj", "{368E9D7C-38BC-4066-8DFF-E262201726D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPSWeixin", "GPSWeixin\GPSWeixin.csproj", "{3A5A86A7-A162-4705-A58E-4FFF85971B2E}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DEA3DF7-B590-4E86-AF6D-AEACCE27A493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DEA3DF7-B590-4E86-AF6D-AEACCE27A493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DEA3DF7-B590-4E86-AF6D-AEACCE27A493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DEA3DF7-B590-4E86-AF6D-AEACCE27A493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9D1F17A-07AA-44CE-91A7-753DD9D22E06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9D1F17A-07AA-44CE-91A7-753DD9D22E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9D1F17A-07AA-44CE-91A7-753DD9D22E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9D1F17A-07AA-44CE-91A7-753DD9D22E06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C0EE29B-B074-4A16-8975-C01F3EFBE794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C0EE29B-B074-4A16-8975-C01F3EFBE794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C0EE29B-B074-4A16-8975-C01F3EFBE794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C0EE29B-B074-4A16-8975-C01F3EFBE794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB1A58E-889A-4FC7-A6C0-F0F3CE5284D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB1A58E-889A-4FC7-A6C0-F0F3CE5284D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB1A58E-889A-4FC7-A6C0-F0F3CE5284D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB1A58E-889A-4FC7-A6C0-F0F3CE5284D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{368E9D7C-38BC-4066-8DFF-E262201726D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368E9D7C-38BC-4066-8DFF-E262201726D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368E9D7C-38BC-4066-8DFF-E262201726D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368E9D7C-38BC-4066-8DFF-E262201726D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A5A86A7-A162-4705-A58E-4FFF85971B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5A86A7-A162-4705-A58E-4FFF85971B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5A86A7-A162-4705-A58E-4FFF85971B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5A86A7-A162-4705-A58E-4FFF85971B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C0EE29B-B074-4A16-8975-C01F3EFBE794} = {494C296C-9F11-4964-B0F5-18F9AEA1ABD1}
+		{DBB1A58E-889A-4FC7-A6C0-F0F3CE5284D0} = {494C296C-9F11-4964-B0F5-18F9AEA1ABD1}
+		{368E9D7C-38BC-4066-8DFF-E262201726D0} = {494C296C-9F11-4964-B0F5-18F9AEA1ABD1}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+D:\lsm\inctech\GPSWeixin\svn\GPS-Wechat\GPS-Wechat\ClassLibs\Inctech.Founation.Misc\bin\Release\Inctech.Founation.Misc.dll
+D:\lsm\inctech\GPSWeixin\svn\GPS-Wechat\GPS-Wechat\ClassLibs\Inctech.Founation.Misc\bin\Release\Inctech.Founation.Misc.pdb
+D:\lsm\inctech\GPSWeixin\svn\GPS-Wechat\GPS-Wechat\ClassLibs\Inctech.Founation.Misc\obj\Release\Inctech.Founation.Misc.csprojResolveAssemblyReference.cache
+D:\lsm\inctech\GPSWeixin\svn\GPS-Wechat\GPS-Wechat\ClassLibs\Inctech.Founation.Misc\obj\Release\Inctech.Founation.Misc.dll
+D:\lsm\inctech\GPSWeixin\svn\GPS-Wechat\GPS-Wechat\ClassLibs\Inctech.Founation.Misc\obj\Release\Inctech.Founation.Misc.pdb
+E:\Solutions\MySelf\IncTech\Chesheng\GPSWeixin_code\GPSWeixin\ClassLibs\Inctech.Founation.Misc\bin\Release\Inctech.Founation.Misc.dll
+E:\Solutions\MySelf\IncTech\Chesheng\GPSWeixin_code\GPSWeixin\ClassLibs\Inctech.Founation.Misc\bin\Release\Inctech.Founation.Misc.pdb
+E:\Solutions\MySelf\IncTech\Chesheng\GPSWeixin_code\GPSWeixin\ClassLibs\Inctech.Founation.Misc\obj\Release\Inctech.Founation.Misc.csprojResolveAssemblyReference.cache
+E:\Solutions\MySelf\IncTech\Chesheng\GPSWeixin_code\GPSWeixin\ClassLibs\Inctech.Founation.Misc\obj\Release\Inctech.Founation.Misc.dll
+E:\Solutions\MySelf\IncTech\Chesheng\GPSWeixin_code\GPSWeixin\ClassLibs\Inctech.Founation.Misc\obj\Release\Inctech.Founation.Misc.pdb
+E:\Solutions\MySelf\IncTech\Chesheng\code-bak\GPSWeixin-0826-1753\GPSWeixin\ClassLibs\Inctech.Founation.Misc\bin\Release\Inctech.Founation.Misc.dll
+E:\Solutions\MySelf\IncTech\Chesheng\code-bak\GPSWeixin-0826-1753\GPSWeixin\ClassLibs\Inctech.Founation.Misc\bin\Release\Inctech.Founation.Misc.pdb
+E:\Solutions\MySelf\IncTech\Chesheng\code-bak\GPSWeixin-0826-1753\GPSWeixin\ClassLibs\Inctech.Founation.Misc\obj\Release\Inctech.Founation.Misc.csprojResolveAssemblyReference.cache
+E:\Solutions\MySelf\IncTech\Chesheng\code-bak\GPSWeixin-0826-1753\GPSWeixin\ClassLibs\Inctech.Founation.Misc\obj\Release\Inctech.Founation.Misc.dll
+E:\Solutions\MySelf\IncTech\Chesheng\code-bak\GPSWeixin-0826-1753\GPSWeixin\ClassLibs\Inctech.Founation.Misc\obj\Release\Inctech.Founation.Misc.pdb

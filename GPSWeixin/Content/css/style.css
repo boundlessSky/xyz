@@ -1,0 +1,40 @@
+﻿.flexRow {
+    display: -moz-box;  /* Firefox */ 
+    display: -ms-flexbox;    /* IE10 */ 
+    display: -webkit-box;    /* Safari */  
+    display: -webkit-flex;    /* Chrome, WebKit */ 
+    display: box;  
+    display: flexbox;  
+    display: flex;
+}
+
+.flexColumn {
+    display: -moz-box;  /* Firefox */ 
+    display: -ms-flexbox;    /* IE10 */ 
+    display: -webkit-box;    /* Safari */  
+    display: -webkit-flex;    /* Chrome, WebKit */ 
+    display: box;  
+    display: flexbox;  
+    display: flex;
+    flex-flow:column;
+}
+
+.am-header-default {
+    /* background-color: #0e90d2; */
+    background: url("../img/header_bg.png");
+    background-position: 20px 0px;
+}
+.menuBar {
+    width:100%;
+}
+.menuBar a {
+    width:100%;   
+}
+
+/*html {
+  font-size:62.5%;
+}*/
+
+#json-list {
+    font-size:1.4rem;
+}

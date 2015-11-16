@@ -1,0 +1,15 @@
+D:\lsm\inctech\GPSWeixin\svn\GPS-Wechat\GPS-Wechat\Tencent\bin\Release\Tencent.dll
+D:\lsm\inctech\GPSWeixin\svn\GPS-Wechat\GPS-Wechat\Tencent\bin\Release\Tencent.pdb
+D:\lsm\inctech\GPSWeixin\svn\GPS-Wechat\GPS-Wechat\Tencent\obj\Release\Tencent.csprojResolveAssemblyReference.cache
+D:\lsm\inctech\GPSWeixin\svn\GPS-Wechat\GPS-Wechat\Tencent\obj\Release\Tencent.dll
+D:\lsm\inctech\GPSWeixin\svn\GPS-Wechat\GPS-Wechat\Tencent\obj\Release\Tencent.pdb
+E:\Solutions\MySelf\IncTech\Chesheng\GPSWeixin_code\GPSWeixin\ClassLibs\Tencent\bin\Release\Tencent.dll
+E:\Solutions\MySelf\IncTech\Chesheng\GPSWeixin_code\GPSWeixin\ClassLibs\Tencent\bin\Release\Tencent.pdb
+E:\Solutions\MySelf\IncTech\Chesheng\GPSWeixin_code\GPSWeixin\ClassLibs\Tencent\obj\Release\Tencent.csprojResolveAssemblyReference.cache
+E:\Solutions\MySelf\IncTech\Chesheng\GPSWeixin_code\GPSWeixin\ClassLibs\Tencent\obj\Release\Tencent.dll
+E:\Solutions\MySelf\IncTech\Chesheng\GPSWeixin_code\GPSWeixin\ClassLibs\Tencent\obj\Release\Tencent.pdb
+E:\Solutions\MySelf\IncTech\Chesheng\code-bak\GPSWeixin-0826-1753\GPSWeixin\ClassLibs\Tencent\bin\Release\Tencent.dll
+E:\Solutions\MySelf\IncTech\Chesheng\code-bak\GPSWeixin-0826-1753\GPSWeixin\ClassLibs\Tencent\bin\Release\Tencent.pdb
+E:\Solutions\MySelf\IncTech\Chesheng\code-bak\GPSWeixin-0826-1753\GPSWeixin\ClassLibs\Tencent\obj\Release\Tencent.csprojResolveAssemblyReference.cache
+E:\Solutions\MySelf\IncTech\Chesheng\code-bak\GPSWeixin-0826-1753\GPSWeixin\ClassLibs\Tencent\obj\Release\Tencent.dll
+E:\Solutions\MySelf\IncTech\Chesheng\code-bak\GPSWeixin-0826-1753\GPSWeixin\ClassLibs\Tencent\obj\Release\Tencent.pdb

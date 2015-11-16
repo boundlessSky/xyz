@@ -1,0 +1,941 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Actions/GetAllGroups.aspx">
+      <publishTime>08/20/2015 23:06:30</publishTime>
+    </File>
+    <File Include="Actions/GetGPSData.aspx">
+      <publishTime>09/01/2015 23:35:05</publishTime>
+    </File>
+    <File Include="Actions/GetPlayTraceData.aspx">
+      <publishTime>09/22/2015 20:24:10</publishTime>
+    </File>
+    <File Include="Actions/GetRealtimeAlarm.aspx">
+      <publishTime>08/25/2015 19:55:40</publishTime>
+    </File>
+    <File Include="Actions/SetRealtimeAlarm.aspx">
+      <publishTime>08/18/2015 21:17:06</publishTime>
+    </File>
+    <File Include="ApiHandler.aspx">
+      <publishTime>08/18/2015 21:17:04</publishTime>
+    </File>
+    <File Include="bin/GPSWeixin.dll">
+      <publishTime>10/14/2015 23:39:33</publishTime>
+    </File>
+    <File Include="bin/Inctech.Founation.Misc.dll">
+      <publishTime>08/26/2015 23:30:56</publishTime>
+    </File>
+    <File Include="bin/Inctech.Foundation.Web.dll">
+      <publishTime>08/26/2015 23:30:57</publishTime>
+    </File>
+    <File Include="bin/Tencent.dll">
+      <publishTime>08/26/2015 23:30:56</publishTime>
+    </File>
+    <File Include="Content/css/bootstrap-switch.css">
+      <publishTime>08/31/2015 21:17:29</publishTime>
+    </File>
+    <File Include="Content/css/bootstrap.min.css">
+      <publishTime>08/31/2015 21:17:29</publishTime>
+    </File>
+    <File Include="Content/css/style.css">
+      <publishTime>09/20/2015 14:05:08</publishTime>
+    </File>
+    <File Include="Content/frame/assets/css/admin.css">
+      <publishTime>08/18/2015 21:17:06</publishTime>
+    </File>
+    <File Include="Content/frame/assets/css/amazeui.css">
+      <publishTime>08/18/2015 21:17:06</publishTime>
+    </File>
+    <File Include="Content/frame/assets/css/amazeui.datetimepicker.css">
+      <publishTime>09/01/2015 22:59:46</publishTime>
+    </File>
+    <File Include="Content/frame/assets/css/amazeui.flat.css">
+      <publishTime>08/18/2015 21:17:06</publishTime>
+    </File>
+    <File Include="Content/frame/assets/css/amazeui.flat.min.css">
+      <publishTime>08/18/2015 21:17:06</publishTime>
+    </File>
+    <File Include="Content/frame/assets/css/amazeui.min.css">
+      <publishTime>08/18/2015 21:17:06</publishTime>
+    </File>
+    <File Include="Content/frame/assets/css/app.css">
+      <publishTime>08/18/2015 21:17:06</publishTime>
+    </File>
+    <File Include="Content/frame/assets/fonts/fontawesome-webfont.eot">
+      <publishTime>08/18/2015 21:17:12</publishTime>
+    </File>
+    <File Include="Content/frame/assets/fonts/fontawesome-webfont.svg">
+      <publishTime>08/18/2015 21:17:12</publishTime>
+    </File>
+    <File Include="Content/frame/assets/fonts/fontawesome-webfont.ttf">
+      <publishTime>08/18/2015 21:17:12</publishTime>
+    </File>
+    <File Include="Content/frame/assets/fonts/fontawesome-webfont.woff">
+      <publishTime>08/18/2015 21:17:12</publishTime>
+    </File>
+    <File Include="Content/frame/assets/fonts/fontawesome-webfont.woff2">
+      <publishTime>08/18/2015 21:17:12</publishTime>
+    </File>
+    <File Include="Content/frame/assets/fonts/FontAwesome.otf">
+      <publishTime>08/18/2015 21:17:12</publishTime>
+    </File>
+    <File Include="Content/frame/assets/i/app-icon72x72%402x.png">
+      <publishTime>08/18/2015 21:17:06</publishTime>
+    </File>
+    <File Include="Content/frame/assets/i/examples/admin-chrome.png">
+      <publishTime>08/18/2015 21:17:06</publishTime>
+    </File>
+    <File Include="Content/frame/assets/i/examples/admin-firefox.png">
+      <publishTime>08/18/2015 21:17:06</publishTime>
+    </File>
+    <File Include="Content/frame/assets/i/examples/admin-ie.png">
+      <publishTime>08/18/2015 21:17:06</publishTime>
+    </File>
+    <File Include="Content/frame/assets/i/examples/admin-opera.png">
+      <publishTime>08/18/2015 21:17:06</publishTime>
+    </File>
+    <File Include="Content/frame/assets/i/examples/admin-safari.png">
+      <publishTime>08/18/2015 21:17:06</publishTime>
+    </File>
+    <File Include="Content/frame/assets/i/examples/adminPage.png">
+      <publishTime>08/18/2015 21:17:06</publishTime>
+    </File>
+    <File Include="Content/frame/assets/i/examples/blogPage.png">
+      <publishTime>08/18/2015 21:17:06</publishTime>
+    </File>
+    <File Include="Content/frame/assets/i/examples/landing.png">
+      <publishTime>08/18/2015 21:17:06</publishTime>
+    </File>
+    <File Include="Content/frame/assets/i/examples/landingPage.png">
+      <publishTime>08/18/2015 21:17:06</publishTime>
+    </File>
+    <File Include="Content/frame/assets/i/examples/loginPage.png">
+      <publishTime>08/18/2015 21:17:06</publishTime>
+    </File>
+    <File Include="Content/frame/assets/i/examples/sidebarPage.png">
+      <publishTime>08/18/2015 21:17:06</publishTime>
+    </File>
+    <File Include="Content/frame/assets/i/favicon.png">
+      <publishTime>08/18/2015 21:17:06</publishTime>
+    </File>
+    <File Include="Content/frame/assets/i/startup-640x1096.png">
+      <publishTime>08/18/2015 21:17:06</publishTime>
+    </File>
+    <File Include="Content/frame/assets/js/amazeui.datetimepicker.js">
+      <publishTime>09/01/2015 22:59:46</publishTime>
+    </File>
+    <File Include="Content/frame/assets/js/amazeui.ie8polyfill.js">
+      <publishTime>08/18/2015 21:17:14</publishTime>
+    </File>
+    <File Include="Content/frame/assets/js/amazeui.ie8polyfill.min.js">
+      <publishTime>08/18/2015 21:17:14</publishTime>
+    </File>
+    <File Include="Content/frame/assets/js/amazeui.js">
+      <publishTime>08/18/2015 21:17:14</publishTime>
+    </File>
+    <File Include="Content/frame/assets/js/amazeui.min.js">
+      <publishTime>08/18/2015 21:17:14</publishTime>
+    </File>
+    <File Include="Content/frame/assets/js/amazeui.widgets.helper.js">
+      <publishTime>08/18/2015 21:17:14</publishTime>
+    </File>
+    <File Include="Content/frame/assets/js/amazeui.widgets.helper.min.js">
+      <publishTime>08/18/2015 21:17:14</publishTime>
+    </File>
+    <File Include="Content/frame/assets/js/app.js">
+      <publishTime>08/18/2015 21:17:14</publishTime>
+    </File>
+    <File Include="Content/frame/assets/js/handlebars.min.js">
+      <publishTime>08/18/2015 21:17:14</publishTime>
+    </File>
+    <File Include="Content/frame/assets/js/jquery.min.js">
+      <publishTime>08/18/2015 21:17:14</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/ajax-loader.gif">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/action-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/action-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/alert-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/alert-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/arrow-d-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/arrow-d-l-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/arrow-d-l-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/arrow-d-r-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/arrow-d-r-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/arrow-d-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/arrow-l-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/arrow-l-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/arrow-r-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/arrow-r-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/arrow-u-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/arrow-u-l-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/arrow-u-l-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/arrow-u-r-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/arrow-u-r-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/arrow-u-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/audio-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/audio-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/back-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/back-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/bars-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/bars-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/bullets-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/bullets-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/calendar-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/calendar-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/camera-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/camera-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/carat-d-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/carat-d-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/carat-l-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/carat-l-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/carat-r-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/carat-r-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/carat-u-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/carat-u-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/check-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/check-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/clock-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/clock-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/cloud-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/cloud-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/comment-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/comment-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/delete-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/delete-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/edit-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/edit-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/eye-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/eye-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/forbidden-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/forbidden-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/forward-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/forward-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/gear-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/gear-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/grid-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/grid-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/heart-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/heart-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/home-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/home-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/info-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/info-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/location-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/location-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/lock-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/lock-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/mail-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/mail-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/minus-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/minus-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/navigation-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/navigation-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/phone-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/phone-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/plus-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/plus-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/power-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/power-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/recycle-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/recycle-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/refresh-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/refresh-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/search-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/search-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/shop-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/shop-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/star-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/star-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/tag-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/tag-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/user-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/user-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/video-black.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-png/video-white.png">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/action-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/action-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/alert-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/alert-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/arrow-d-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/arrow-d-l-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/arrow-d-l-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/arrow-d-r-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/arrow-d-r-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/arrow-d-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/arrow-l-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/arrow-l-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/arrow-r-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/arrow-r-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/arrow-u-black.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/arrow-u-l-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/arrow-u-l-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/arrow-u-r-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/arrow-u-r-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/arrow-u-white.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/audio-black.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/audio-white.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/back-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/back-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/bars-black.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/bars-white.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/bullets-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/bullets-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/calendar-black.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/calendar-white.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/camera-black.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/camera-white.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/carat-d-black.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/carat-d-white.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/carat-l-black.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/carat-l-white.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/carat-r-black.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/carat-r-white.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/carat-u-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/carat-u-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/check-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/check-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/clock-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/clock-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/cloud-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/cloud-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/comment-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/comment-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/delete-black.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/delete-white.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/edit-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/edit-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/eye-black.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/eye-white.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/forbidden-black.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/forbidden-white.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/forward-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/forward-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/gear-black.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/gear-white.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/grid-black.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/grid-white.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/heart-black.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/heart-white.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/home-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/home-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/info-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/info-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/location-black.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/location-white.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/lock-black.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/lock-white.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/mail-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/mail-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/minus-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/minus-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/navigation-black.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/navigation-white.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/phone-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/phone-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/plus-black.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/plus-white.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/power-black.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/power-white.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/recycle-black.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/recycle-white.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/refresh-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/refresh-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/search-black.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/search-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/shop-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/shop-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/star-black.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/star-white.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/tag-black.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/tag-white.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/user-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/user-white.svg">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/video-black.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/images/icons-svg/video-white.svg">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/jquery.min.js">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/jquery.min.map">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/jquery.mobile-1.4.5.min.css">
+      <publishTime>08/18/2015 21:17:16</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/jquery.mobile-1.4.5.min.js">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/frame/jquery-mobile/jquery.mobile-1.4.5.min.map">
+      <publishTime>08/18/2015 21:17:18</publishTime>
+    </File>
+    <File Include="Content/img/alert_off.png">
+      <publishTime>09/01/2015 22:59:46</publishTime>
+    </File>
+    <File Include="Content/img/alert_on.gif">
+      <publishTime>09/01/2015 22:59:46</publishTime>
+    </File>
+    <File Include="Content/img/arrow.png">
+      <publishTime>09/05/2015 22:47:00</publishTime>
+    </File>
+    <File Include="Content/img/back.png">
+      <publishTime>09/05/2015 22:47:00</publishTime>
+    </File>
+    <File Include="Content/img/car.png">
+      <publishTime>09/05/2015 22:47:00</publishTime>
+    </File>
+    <File Include="Content/img/dian.png">
+      <publishTime>09/01/2015 22:59:46</publishTime>
+    </File>
+    <File Include="Content/img/fullScreen.png">
+      <publishTime>09/05/2015 22:47:00</publishTime>
+    </File>
+    <File Include="Content/img/header_bg.png">
+      <publishTime>09/05/2015 22:47:00</publishTime>
+    </File>
+    <File Include="Content/img/left.png">
+      <publishTime>09/15/2015 20:47:35</publishTime>
+    </File>
+    <File Include="Content/img/pin.png">
+      <publishTime>09/05/2015 22:47:00</publishTime>
+    </File>
+    <File Include="Content/img/restore.png">
+      <publishTime>09/05/2015 22:47:00</publishTime>
+    </File>
+    <File Include="Content/img/right.png">
+      <publishTime>09/15/2015 20:47:35</publishTime>
+    </File>
+    <File Include="Content/img/setting.png">
+      <publishTime>09/05/2015 22:47:00</publishTime>
+    </File>
+    <File Include="Content/img/stop.png">
+      <publishTime>09/05/2015 22:47:00</publishTime>
+    </File>
+    <File Include="Content/img/target.png">
+      <publishTime>09/05/2015 22:47:00</publishTime>
+    </File>
+    <File Include="Content/js/alarmHistory.js">
+      <publishTime>09/15/2015 22:04:38</publishTime>
+    </File>
+    <File Include="Content/js/basic.js">
+      <publishTime>09/20/2015 14:05:08</publishTime>
+    </File>
+    <File Include="Content/js/bootstrap-switch.js">
+      <publishTime>08/31/2015 21:17:30</publishTime>
+    </File>
+    <File Include="Content/js/carGroup.js">
+      <publishTime>09/22/2015 20:21:47</publishTime>
+    </File>
+    <File Include="Content/js/carTest.js">
+      <publishTime>09/15/2015 20:47:35</publishTime>
+    </File>
+    <File Include="Content/js/dateUtil.js">
+      <publishTime>08/22/2015 22:52:46</publishTime>
+    </File>
+    <File Include="Content/js/mapUtil.js">
+      <publishTime>08/27/2015 00:09:24</publishTime>
+    </File>
+    <File Include="Content/js/mileage.js">
+      <publishTime>09/02/2015 00:46:13</publishTime>
+    </File>
+    <File Include="Content/js/multCar.js">
+      <publishTime>09/15/2015 20:47:35</publishTime>
+    </File>
+    <File Include="Content/js/report.js">
+      <publishTime>09/20/2015 14:05:08</publishTime>
+    </File>
+    <File Include="Content/js/setting.js">
+      <publishTime>10/14/2015 19:19:58</publishTime>
+    </File>
+    <File Include="Content/js/singleCar.js">
+      <publishTime>09/16/2015 22:59:01</publishTime>
+    </File>
+    <File Include="Content/js/track.js">
+      <publishTime>09/15/2015 22:04:38</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/18/2015 21:17:06</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>10/14/2015 23:39:11</publishTime>
+    </File>
+    <File Include="MessageTest.html">
+      <publishTime>09/22/2015 21:30:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.js">
+      <publishTime>08/18/2015 21:17:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.min.js">
+      <publishTime>08/18/2015 21:17:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.20.js">
+      <publishTime>08/18/2015 21:17:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.20.min.js">
+      <publishTime>08/18/2015 21:17:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery.cookie.js">
+      <publishTime>09/20/2015 14:05:08</publishTime>
+    </File>
+    <File Include="Scripts/jQuery.md5.js">
+      <publishTime>08/18/2015 21:17:04</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.5.3.js">
+      <publishTime>08/18/2015 21:17:04</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>08/18/2015 21:17:04</publishTime>
+    </File>
+    <File Include="Views/AlarmHistory.aspx">
+      <publishTime>09/20/2015 14:05:08</publishTime>
+    </File>
+    <File Include="Views/CarGroup.aspx">
+      <publishTime>09/22/2015 20:21:47</publishTime>
+    </File>
+    <File Include="Views/CompanyIntroduction.aspx">
+      <publishTime>09/20/2015 14:05:08</publishTime>
+    </File>
+    <File Include="Views/CompanyService.aspx">
+      <publishTime>09/20/2015 14:05:08</publishTime>
+    </File>
+    <File Include="Views/Login.aspx">
+      <publishTime>09/20/2015 14:05:08</publishTime>
+    </File>
+    <File Include="Views/LoginSuccess.aspx">
+      <publishTime>09/15/2015 20:47:36</publishTime>
+    </File>
+    <File Include="Views/mileageStatistics.aspx">
+      <publishTime>09/20/2015 14:05:08</publishTime>
+    </File>
+    <File Include="Views/multCar.aspx">
+      <publishTime>09/20/2015 22:44:12</publishTime>
+    </File>
+    <File Include="Views/Report.aspx">
+      <publishTime>09/20/2015 14:05:08</publishTime>
+    </File>
+    <File Include="Views/Settings.aspx">
+      <publishTime>09/20/2015 14:05:08</publishTime>
+    </File>
+    <File Include="Views/singleCar.aspx">
+      <publishTime>09/20/2015 14:05:08</publishTime>
+    </File>
+    <File Include="Views/Track.aspx">
+      <publishTime>09/20/2015 22:44:12</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/14/2015 23:39:34</publishTime>
+    </File>
+    <File Include="Wechat.aspx">
+      <publishTime>08/18/2015 21:17:04</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

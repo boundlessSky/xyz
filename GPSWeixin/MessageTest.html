@@ -1,0 +1,247 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title></title>
+  <script src="./Scripts/jquery-1.7.1.js"></script>
+  <script src="Scripts/jQuery.md5.js"></script>
+  <script>
+    function processRequest(req) {
+      var str = JSON.stringify(req);
+      $("#requestText").val(str);
+      $("#responseText").val("");
+      $.ajax({
+        url: "../ApiHandler.aspx",
+        type: "POST",
+        dataType: "json",
+        data: str,
+        success: function (data) {
+          $("#responseText").val(JSON.stringify(data));
+        },
+        error: function () { }
+      });
+    }
+
+    //TODO 请完成1~9
+
+    // weixintest
+    //功能编号1
+    //32bit md5
+    var pwd32 = $.md5('test');
+    //16bit md5
+    var pwd = pwd32.substr(8, 16);
+    var req_1 = {
+      code: "1", //功能编号,
+      content: { //功能数据字段
+          username: "weixintest",
+        password: pwd
+      }
+    };
+
+    //// guangwu
+    ////功能编号1
+    ////32bit md5
+    //var pwd32 = $.md5('guangwu');
+    ////16bit md5
+    //var pwd = pwd32.substr(8, 16);
+    //var req_1 = {
+    //    code: "1", //功能编号,
+    //    content: { //功能数据字段
+    //        username: "guangwu",
+    //        password: pwd
+    //    }
+    //};
+
+    //2 公司信息下载
+    var req_2 = {
+      code: "2", //功能编号,
+      content: null //功能数据字段
+    };
+
+    //3 车队信息下载
+    var req_3 = {
+      code: "3", //功能编号,
+      content: null //功能数据字段
+    };
+
+    //4 车辆基础信息下载
+    var req_4 = {
+      code: "4", //功能编号,
+      content: null //功能数据字段
+    };
+
+    //5 车辆实时信息下载
+    var req_5 = {
+      code: "5", //功能编号,
+      content: {  //功能数据字段
+        vid: ["33680", "49220", "46940"], //车辆编号数组
+        interval: "60" //时间间隔
+      }
+    };
+
+    //6 车辆实时报警信息下载
+    var req_6 = {
+      code: "6", //功能编号,
+      content: {  //功能数据字段
+        alarmType: [8, 15, 22], //报警类型数组
+        interval: "60" //时间间隔
+      }
+    };
+
+    //7	车辆历史轨迹信息下载
+    var req_7 = {
+      code: "7", //功能编号,
+      content: {  //功能数据字段
+        vid: "49220", //车辆编号
+        startTime: "2015-09-02 00:00:00", //开始时间
+        endTime: "2015-09-02 13:00:00", //结束时间
+        rowCount: "30", //每页记录数
+        pageIndex: "1" //分页索引
+      }
+    };
+
+    //8	车辆历史报警信息下载
+    var req_8 = {
+      code: "8", //功能编号,
+      content: {  //功能数据字段
+        vid: ["34204", "49220"], //车辆编号数组
+        startTime: "2015-09-02 00:00:00", //开始时间
+        endTime: "2015-09-02 00:20:00", //结束时间
+        rowCount: "50", //每页记录数
+        pageIndex: "1", //分页索引
+          alarmType: [1,2,4,5,6,7,8,9,10,11,12,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33]
+      }
+    };
+
+    //9	车辆里程信息下载
+    var req_9 = {
+      code: "9", //功能编号,
+      content: {  //功能数据字段
+        vid: ["33680", "49220", "46940"], //车辆编号数组
+        startTime: "2015-06-26", //开始时间
+        endTime: "2015-06-29" //结束时间
+      }
+    };
+
+    function getAllGroups() {
+      $.ajax({
+        url: "../actions/GetAllGroups.aspx",
+        type: "POST",
+        dataType: "json",
+        success: function (data) {
+          $("#responseText").val(JSON.stringify(data));
+        }
+      });
+    }
+
+    function getPara() {
+      $.ajax({
+        url: "../actions/GetRealtimeAlarm.aspx",
+        type: "POST",
+        dataType: "json",
+        success: function (data) {
+          $("#responseText").val(JSON.stringify(data));
+        }
+      });
+    }
+
+    function setPara() {
+      var req = { "interval": 30, "alarmType": [1, 2, 3, 4] };
+      var str = JSON.stringify(req);
+      $("#requestText").val(str);
+      $("#responseText").val("");
+      $.ajax({
+        url: "../actions/SetRealtimeAlarm.aspx",
+        type: "POST",
+        data: str,
+        dataType: "json",
+        success: function (data) {
+          $("#responseText").val(JSON.stringify(data));
+        }
+      });
+    }
+
+    function setRealtimeAlarm() {
+      var dataVar = {
+        alarmType: [8, 15, 22],
+        interval: 10
+      };
+      $.ajax({
+        url: "../actions/SetRealtimeAlarm.aspx",
+        type: "POST",
+        dataType: "json",
+        data: JSON.stringify(dataVar),
+        success: function (data) {
+          $("#responseText").val("Successed");
+        }
+      });
+    }
+
+    function getGPSData() {
+        var dataVar = {
+            content: {  //功能数据字段
+                // vid=49220的有数据, vid=46940的没有数据
+                //vid: "49220", //车辆编号
+                vid: "46940", //车辆编号
+                startTime: "2015-08-23 00:00:00", //开始时间
+                endTime: "2015-08-26 00:00:00", //结束时间
+                rowCount: "30", //每页记录数
+                pageIndex: "1" //分页索引
+            }
+        };
+        $.ajax({
+            url: "../actions/GetGPSData.aspx",
+            type: "POST",
+            dataType: "json",
+            data: JSON.stringify(dataVar),
+            success: function (data) {
+                $("#responseText").val(JSON.stringify(data));
+            }
+        });
+    }
+
+    function getPlayTraceData() {
+        var dataVar = {
+            content: {  //功能数据字段
+                // vid=49220的有数据, vid=46940的没有数据
+                //vid: "49220", //车辆编号
+                vid: "49220", //车辆编号
+                startTime: "2015-09-02 00:00:00", //开始时间
+                endTime: "2015-09-02 13:00:00" //结束时间
+            }
+        };
+        $.ajax({
+            url: "../actions/getPlayTraceData.aspx",
+            type: "POST",
+            dataType: "json",
+            data: JSON.stringify(dataVar),
+            success: function (data) {
+                $("#responseText").val(JSON.stringify(data));
+            }
+        });
+    }
+  </script>
+</head>
+<body>
+  <input type="button" value="协议1" onclick="processRequest(req_1);" />
+  <input type="button" value="协议2" onclick="processRequest(req_2);" />
+  <input type="button" value="协议3" onclick="processRequest(req_3);" />
+  <input type="button" value="协议4" onclick="processRequest(req_4);" />
+  <input type="button" value="协议5" onclick="processRequest(req_5);" />
+  <input type="button" value="协议6" onclick="processRequest(req_6);" />
+  <input type="button" value="协议7" onclick="processRequest(req_7);" />
+  <input type="button" value="协议8" onclick="processRequest(req_8);" />
+  <input type="button" value="协议9" onclick="processRequest(req_9);" />
+  <input type="button" value="getAllGroups" onclick="getAllGroups();" />
+  <input type="button" value="setPara" onclick="setPara();" />
+  <input type="button" value="getPara" onclick="getPara();" />
+  <input type="button" value="setRealtimeAlarm" onclick="setRealtimeAlarm();" />
+  <input type="button" value="getGPSData" onclick="getGPSData();" />
+  <input type="button" value="getPlayTraceData" onclick="getPlayTraceData();" />
+  <br />
+  请求数据：
+    <textarea id="requestText" rows="15" cols="100"></textarea>
+  <br />
+  返回数据：
+    <textarea id="responseText" rows="15" cols="100" style="word-wrap: break-word;"></textarea>
+</body>
+</html>

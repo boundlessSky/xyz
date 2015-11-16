@@ -1,0 +1,12 @@
+D:\lsm\inctech\GPSWeixin\svn\GPS-Wechat\GPS-Wechat\ClassLibs\Inctech.Foundation.Web\bin\Release\Inctech.Foundation.Web.dll
+D:\lsm\inctech\GPSWeixin\svn\GPS-Wechat\GPS-Wechat\ClassLibs\Inctech.Foundation.Web\bin\Release\Inctech.Foundation.Web.pdb
+D:\lsm\inctech\GPSWeixin\svn\GPS-Wechat\GPS-Wechat\ClassLibs\Inctech.Foundation.Web\obj\Release\Inctech.Foundation.Web.dll
+D:\lsm\inctech\GPSWeixin\svn\GPS-Wechat\GPS-Wechat\ClassLibs\Inctech.Foundation.Web\obj\Release\Inctech.Foundation.Web.pdb
+E:\Solutions\MySelf\IncTech\Chesheng\GPSWeixin_code\GPSWeixin\ClassLibs\Inctech.Foundation.Web\bin\Release\Inctech.Foundation.Web.dll
+E:\Solutions\MySelf\IncTech\Chesheng\GPSWeixin_code\GPSWeixin\ClassLibs\Inctech.Foundation.Web\bin\Release\Inctech.Foundation.Web.pdb
+E:\Solutions\MySelf\IncTech\Chesheng\GPSWeixin_code\GPSWeixin\ClassLibs\Inctech.Foundation.Web\obj\Release\Inctech.Foundation.Web.dll
+E:\Solutions\MySelf\IncTech\Chesheng\GPSWeixin_code\GPSWeixin\ClassLibs\Inctech.Foundation.Web\obj\Release\Inctech.Foundation.Web.pdb
+E:\Solutions\MySelf\IncTech\Chesheng\code-bak\GPSWeixin-0826-1753\GPSWeixin\ClassLibs\Inctech.Foundation.Web\bin\Release\Inctech.Foundation.Web.dll
+E:\Solutions\MySelf\IncTech\Chesheng\code-bak\GPSWeixin-0826-1753\GPSWeixin\ClassLibs\Inctech.Foundation.Web\bin\Release\Inctech.Foundation.Web.pdb
+E:\Solutions\MySelf\IncTech\Chesheng\code-bak\GPSWeixin-0826-1753\GPSWeixin\ClassLibs\Inctech.Foundation.Web\obj\Release\Inctech.Foundation.Web.dll
+E:\Solutions\MySelf\IncTech\Chesheng\code-bak\GPSWeixin-0826-1753\GPSWeixin\ClassLibs\Inctech.Foundation.Web\obj\Release\Inctech.Foundation.Web.pdb
